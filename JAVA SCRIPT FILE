@@ -1,0 +1,26 @@
+<body>
+    <header id="global-header"></header>
+
+    <footer id="global-footer"></footer>
+    <script>
+    // Create global header
+        const header = document.querySelector('#global-header');
+        const headerContent = `
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        `;
+        header.innerHTML = headerContent;
+
+        // Create global footer
+        const footer = document.querySelector('#global-footer');
+        const footerContent = `
+        <p>&copy; 2023 My Company</p>
+        `;
+        footer.innerHTML = footerContent;
+    </script>
+</body>
